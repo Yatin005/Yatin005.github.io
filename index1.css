@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+h1 {
+    padding-left: 50px;
+    margin-top: 5px;
+}
+
+.container-1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121313;
+}
+
+.content {
+    display: flex;
+    width: 570px;
+    padding: 30px;
+    background: #ADEFD1;
+    border-radius: 12px;
+    position: absolute;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling image */
+.image-box {
+    height: 232px;
+    width: 200px;
+    border-radius: 12px;
+    padding: 3px;
+    background: #092c3e;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid #ADEFD1;
+    border-radius: 12px;
+    clip-path: circle();
+}
+
+/* Styling list elements*/
+ol {
+    align-items: flex-start;
+}
+
+.content .details {
+    width: 58%;
+    margin: 10px 0 20px 20px;
+    color: #092c3e;
+}
+
+.content .details .name {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.content .details .title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .details p {
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+/* Styling Button*/
+button {
+    color: #ADEFD1;
+    background: #00203F;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 4px;
+}
+
+.content a {
+    outline: none;
+    font-size: 16px;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: #ADEFD1;
+    background: #00203F;
+
+}
+
+.content button:hover {
+    transform: scale(0.97);
+}
+
+/* Styling media-icons*/
+
+.media-icons {
+    position: absolute;
+    bottom: 16px;
+    right: 15px;
+    margin-top: 12px;
+    justify-content: flex-end;
+}
+
+.media-icons a {
+    display:inline-block;
+    border-radius: 20px;
+    margin: 0 4px;
+    font-size: 19px;
+    color: #3ec4cb;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.media-icons i:hover {
+    opacity: 1;
+}
+
+/* Styling Footer*/
+footer {
+    text-align: center;
+    padding-bottom: 5px;
+    border-top: 1px solid rgb(4, 8, 8);
+
+}
